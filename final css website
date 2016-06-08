@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Made with Thimble</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #p{
+        color:#ff0066;
+      font-family:cursive;
+    }
+    
+    #h1{
+          font-family: cursive; 
+          color: #ff5050;
+    }
+    
+    #p1{
+          color:#cc3399;
+          font-family: serif;
+    }
+    body{
+      background-image: url("https://consequenceofsound.files.wordpress.com/2014/12/screen-shot-2014-12-23-at-3-33-20-pm.png?w=807")
+    }
+    
+    #h2{
+        color:#ff3399;
+        font-family: cursive;
+    }
+    
+    #p2{
+        color:#cc0066
+          
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 id="h1">CSS Tutorial</h1>      
+      <p id="p">CSS is mostly commonly know for making your web-page look nice and pretty</p>
+    </div>
+    <p id="p"><b>What is CSS?</b></p>      
+    <p id="p1"><b>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.</b></p>      
+  </div>
+  
+  <h2 id="h2"><b>I'll be teaching you how to change the color of your text!!</b></h2>
+  
+  <p id="p2"><b>Colors in CSS are most often specified by: </b></p>
+
+  <ul>
+    <li id="p2"><b>a valid color name - like "red"</b></li>
+    <li id="p2"><b>an RGB value - like "rgb(255, 0, 0)"</b></li>
+    <li id="p2"><b>a HEX value - like "#ff0000"</b></li>
+  </ul>
+  <p id="p1"><b>first you'll need to make a style tag in between your head tag</b></p>
+  <p id="p1"><b>Then you'll need to choose the text you want to color such as your heading or paragraph tag</b></p>
+  <p id="p1"><b>Now that you have that done you want head to your style tag and start coding</b></p>
+   
+  <img src="http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/219d4d/basics-of-css-part-1/Images/paragraph%20color.png">
+  
+  <p id="p2"><b>The image above is showing you the correct code for you to have in your style tag but the type="text/css" is not nessacry</b></p>
+  
+</body>
+</html>
